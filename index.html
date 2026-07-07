@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Builder</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="page-home">
+  <div class="home-loader" id="home-loader" hidden>
+    <div class="home-loader-card">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Uploading and validating your JSON…</p>
+    </div>
+  </div>
+
+  <main class="home">
+    <header class="home-header">
+      <h1>CV Builder</h1>
+      <p>Create, customize, and export your CV from a simple JSON structure.</p>
+    </header>
+
+    <div class="home-options">
+      <button type="button" class="option-card" id="btn-download-template">
+        <span class="option-icon">⬇️</span>
+        <span class="option-title">Download Template</span>
+        <span class="option-desc">Get the CV JSON template, fill it in, then upload it here to start building.</span>
+      </button>
+
+      <label class="option-card option-upload" for="json-upload" id="upload-label">
+        <span class="option-icon">📂</span>
+        <span class="option-title">Upload JSON</span>
+        <span class="option-desc">Load your filled CV JSON file to edit content and layout.</span>
+        <input type="file" id="json-upload" accept=".json,application/json" hidden>
+      </label>
+    </div>
+
+    <div class="upload-ready" id="upload-ready" hidden>
+      <div class="upload-ready-icon" aria-hidden="true">✓</div>
+      <div class="upload-ready-text">
+        <p class="upload-ready-title">File ready</p>
+        <p class="upload-ready-filename" id="upload-filename"></p>
+      </div>
+      <button type="button" class="btn btn-primary" id="btn-start-editing">Start Editing</button>
+      <button type="button" class="btn btn-ghost btn-sm" id="btn-upload-another">Upload another file</button>
+    </div>
+
+    <p class="home-note">
+      Your CV uses a predefined HTML/CSS template populated from JSON.
+      Drag sections to reorder, then download JSON or print.
+    </p>
+  </main>
+
+  <script src="js/schema.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

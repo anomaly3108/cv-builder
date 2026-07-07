@@ -1,0 +1,210 @@
+/* Modern single-column resume template */
+
+.cv-template {
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.35;
+  color: #000;
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 14mm 16mm;
+  background: #fff;
+}
+
+.cv-section {
+  margin-bottom: 0.65rem;
+}
+
+.cv-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Header */
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 0.85rem;
+}
+
+.cv-name {
+  font-size: 20pt;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  letter-spacing: 0.02em;
+}
+
+.cv-contact {
+  font-size: 9.5pt;
+  color: #222;
+  margin: 0;
+}
+
+.cv-contact a {
+  color: #000;
+  text-decoration: none;
+}
+
+.cv-contact a:hover {
+  text-decoration: underline;
+}
+
+.cv-contact-sep {
+  margin: 0 0.35rem;
+  color: #444;
+}
+
+/* Section headings */
+
+.cv-section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  text-transform: none;
+  margin: 0 0 0.35rem;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #000;
+}
+
+/* Summary */
+
+.cv-summary {
+  margin: 0;
+  text-align: justify;
+}
+
+/* Skills */
+
+.cv-skills-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cv-skill-item {
+  margin-bottom: 0.15rem;
+}
+
+.cv-skill-label {
+  font-weight: 700;
+}
+
+/* Experience & Education entries */
+
+.cv-entry {
+  margin-bottom: 0.55rem;
+}
+
+.cv-entry:last-child {
+  margin-bottom: 0;
+}
+
+.cv-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.cv-entry-role,
+.cv-entry-degree {
+  font-weight: 700;
+}
+
+.cv-entry-dates {
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 10pt;
+}
+
+.cv-entry-subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.cv-entry-company,
+.cv-entry-institution {
+  font-style: italic;
+}
+
+.cv-entry-location {
+  font-style: italic;
+  white-space: nowrap;
+  font-size: 10pt;
+}
+
+/* Bullet lists */
+
+.cv-bullets {
+  margin: 0.15rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.cv-bullets li {
+  margin-bottom: 0.12rem;
+}
+
+/* Projects */
+
+.cv-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+}
+
+.cv-project-left {
+  font-weight: 700;
+}
+
+.cv-project-name {
+  font-weight: 700;
+}
+
+.cv-project-tech {
+  font-weight: 400;
+}
+
+.cv-project-link {
+  font-weight: 400;
+  white-space: nowrap;
+  font-size: 10pt;
+  flex-shrink: 0;
+}
+
+.cv-project-link a {
+  color: #000;
+  text-decoration: none;
+}
+
+.cv-project-link a:hover {
+  text-decoration: underline;
+}
+
+.cv-project-sep {
+  margin: 0 0.2rem;
+}
+
+.cv-cert-link a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.cv-cert-link a:hover {
+  text-decoration: underline;
+}
+
+@media print {
+  .cv-template {
+    padding: 0;
+    max-width: none;
+  }
+
+  .cv-section {
+    break-inside: avoid;
+  }
+}

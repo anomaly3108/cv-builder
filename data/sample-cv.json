@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "templateId": "default",
+    "layout": ["header", "summary", "skills", "experience", "projects", "certifications", "education"]
+  },
+  "personal": {
+    "name": "Alex Johnson",
+    "phone": "+1 555 010 0000",
+    "email": "alex.johnson@example.com",
+    "linkedin": "LinkedIn",
+    "linkedinUrl": "",
+    "github": "GitHub",
+    "githubUrl": "",
+    "facebook": "Facebook",
+    "facebookUrl": ""
+  },
+  "summary": "Full stack engineer with experience building scalable web applications using modern JavaScript frameworks. Skilled in frontend architecture, API integration, and test automation. Focused on clean code, performance, and collaborative product delivery.",
+  "skills": [
+    { "label": "Languages", "value": "JavaScript, TypeScript, HTML/CSS" },
+    { "label": "Frameworks", "value": "React, Next.js, Redux Toolkit, React Query" },
+    { "label": "Developer Tools", "value": "Git, Docker, VS Code, CI/CD pipelines" },
+    { "label": "Testing", "value": "Cypress, Jest, React Testing Library" },
+    { "label": "Cloud & Backend", "value": "Node.js, REST APIs, MongoDB, Docker, NGINX" },
+    { "label": "Currently Exploring", "value": "TailwindCSS, advanced state management patterns, system design" },
+    { "label": "Currently Exploring", "value": "Github Copilot, AI-powered development, AI-powered documentation" }
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "startDate": "Jan 2023",
+      "endDate": "Present",
+      "company": "Example Tech Corp",
+      "location": "City, Country",
+      "bullets": [
+        "Improved page load performance by *30%* through image optimization, lazy loading, and CDN caching.",
+        "Refactored frontend codebase with bundle splitting and performance profiling, improving Lighthouse scores.",
+        "Shipped a new product module that opened an additional revenue channel for the business.",
+        "Authored technical documentation to improve onboarding and cross-team knowledge sharing.",
+        "Mentored junior developers through code reviews and pair programming sessions."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "startDate": "Jun 2021",
+      "endDate": "Dec 2022",
+      "company": "Sample Solutions Ltd",
+      "location": "City, Country",
+      "bullets": [
+        "Redesigned a React application architecture, reducing bounce rate and improving user satisfaction.",
+        "Implemented E2E testing for critical user flows, accelerating release cycles and reducing production issues.",
+        "Built responsive web portals with Next.js and REST APIs, improving engagement metrics.",
+        "Automated API testing workflows, reducing manual QA time significantly."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Alpha",
+      "techStack": "React, Node.js, MongoDB, Docker",
+      "linkText": "Project Link",
+      "linkUrl": "",
+      "bullets": [
+        "Built a SaaS platform with modular admin and customer-facing features.",
+        "Migrated backend framework to improve response times and throughput.",
+        "Implemented orders, coupons, and customer management modules.",
+        "Designed scalable backend architecture with payment and email integrations."
+      ]
+    },
+    {
+      "name": "Project Beta",
+      "techStack": "Next.js, Node.js, MongoDB, Docker, Stripe",
+      "linkText": "Project Link",
+      "linkUrl": "",
+      "bullets": [
+        "Developed an ecommerce platform with configurable coupons, shipping, and tax rules.",
+        "Integrated payment providers for flexible checkout flows.",
+        "Configured containerized deployments with reverse proxy and zero-downtime updates.",
+        "Added Cypress test coverage for critical user paths."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer – Associate",
+      "description": "Cloud application development and deployment on AWS",
+      "completedDate": "Mar 2023",
+      "linkText": "View Certificate",
+      "linkUrl": ""
+    },
+    {
+      "name": "Meta Front-End Developer Professional Certificate",
+      "description": "React, UX design, and frontend best practices",
+      "completedDate": "Nov 2022",
+      "linkText": "View Certificate",
+      "linkUrl": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Example University",
+      "location": "City, Country",
+      "degree": "Bachelor of Computer Science",
+      "startDate": "Aug 2017",
+      "endDate": "May 2021"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "templateId": "default",
+    "layout": ["header", "summary", "skills", "experience", "projects", "certifications", "education"]
+  },
+  "personal": {
+    "name": "",
+    "phone": "",
+    "email": "",
+    "linkedin": "",
+    "linkedinUrl": "",
+    "github": "",
+    "githubUrl": "",
+    "instagram": "",
+    "instagramUrl": ""
+  },
+  "summary": "",
+  "skills": [
+    { "label": "Languages", "value": "" },
+    { "label": "Frameworks", "value": "" },
+    { "label": "Developer Tools", "value": "" },
+    { "label": "Testing", "value": "" },
+    { "label": "Cloud & Backend", "value": "" },
+    { "label": "Currently Exploring", "value": "" }
+  ],
+  "experience": [
+    {
+      "role": "",
+      "startDate": "",
+      "endDate": "",
+      "company": "",
+      "location": "",
+      "bullets": [""]
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "techStack": "",
+      "linkText": "",
+      "linkUrl": "",
+      "bullets": [""]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "",
+      "description": "",
+      "completedDate": "",
+      "linkText": "",
+      "linkUrl": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "location": "",
+      "degree": "",
+      "startDate": "",
+      "endDate": ""
+    }
+  ]
+}

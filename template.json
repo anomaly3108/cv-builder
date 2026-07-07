@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "templateId": "default",
+    "layout": ["header", "summary", "experience", "education", "skills"]
+  },
+  "personal": { "name": "", "title": "", "email": "", ... },
+  "summary": "",
+  "experience": [{ "company": "", "role": "", ... }],
+  "education": [{ "institution": "", "degree": "", ... }],
+  "skills": ["JavaScript", "HTML"]
+}

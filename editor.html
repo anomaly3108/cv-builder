@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit CV — CV Builder</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="templates/default/template.css" id="template-css">
+</head>
+<body class="page-editor">
+  <header class="editor-toolbar">
+    <div class="toolbar-left">
+      <a href="index.html" class="btn btn-ghost">← Home</a>
+      <h1>CV Editor</h1>
+    </div>
+    <div class="toolbar-actions">
+      <button type="button" class="btn btn-secondary" id="btn-download">Download JSON</button>
+      <button type="button" class="btn btn-primary" id="btn-print">Print CV</button>
+    </div>
+  </header>
+
+  <div class="editor-layout">
+    <aside class="editor-panel editor-forms">
+      <div class="panel-header">
+        <h2>Edit Content</h2>
+        <p>Click a section to expand it. Use ↑ ↓ to reorder sections and entries.</p>
+      </div>
+      <div class="form-scroll">
+        <div id="form-container" class="form-container"></div>
+      </div>
+    </aside>
+
+    <section class="editor-panel editor-preview">
+      <div class="panel-header">
+        <h2>Preview</h2>
+        <p>Drag sections in the preview, or use ↑ ↓ in the left panel to reorder sections and entries.</p>
+      </div>
+      <div class="preview-frame">
+        <article id="cv-preview" class="cv-template"></article>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/schema.js"></script>
+  <script src="js/format-text.js"></script>
+  <script src="js/template-renderer.js"></script>
+  <script src="js/form-builder.js"></script>
+  <script src="js/drag-drop.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>
